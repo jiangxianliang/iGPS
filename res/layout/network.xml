@@ -53,40 +53,23 @@
             android:text="IP地址:" />
 
         <TextView
-            android:id="@+id/throughputString"
+            android:id="@+id/testStateString"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ipAddressString"
             android:layout_marginTop="8dp"
             android:gravity="right"
-            android:text="吞吐量:" />
+            android:text="测试状态:" />
 
         <TextView
-            android:id="@+id/dnsLatencyString"
+            android:id="@+id/phoneLocationString"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/throughputString"
+            android:layout_below="@+id/testStateString"
             android:layout_marginTop="8dp"
             android:gravity="right"
-            android:text="DNS时延:" />
-
-        <TextView
-            android:id="@+id/pingLatencyString"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/dnsLatencyString"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
-            android:text="ping时延:" />
-
-        <TextView
-            android:id="@+id/testStateString"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/pingLatencyString"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
-            android:text="Test状态:" />
+            android:text="手机位置:" />
+             
     </RelativeLayout>
 
     <RelativeLayout
@@ -137,50 +120,32 @@
             android:text="WiFi连接后有效" />
 
         <TextView
-            android:id="@+id/throughput"
+            android:id="@+id/testState"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ipAddress"
             android:layout_marginTop="8dp"
             android:gravity="right"
-            android:text="" />
-
+            android:text="请点击按键！" />
+        
         <TextView
-            android:id="@+id/dnsLatency"
+            android:id="@+id/phoneLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/throughput"
+            android:layout_below="@+id/testState"
             android:layout_marginTop="8dp"
             android:gravity="right"
             android:text="" />
-
-        <TextView
-            android:id="@+id/pingLatency"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/dnsLatency"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
-            android:text="" />
-
-        <TextView
-            android:id="@+id/testState"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/pingLatency"
-            android:layout_marginTop="8dp"
-            android:gravity="right"
-            android:text="请点击开始测试" />
-
+        
         <Button
             android:id="@+id/btnRun"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/testState"
+            android:layout_below="@+id/phoneLocation"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:gravity="center_horizontal"
-            android:text="开始测试" />
+            android:text="Find your phone" />
     </RelativeLayout>
 
 </LinearLayout>

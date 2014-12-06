@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="thu.kejiafan.mobinet"
-    android:versionCode="10"
-    android:versionName="1.4.5" >
+    package="thu.kejiafan.wmap"
+    android:versionCode="2"
+    android:versionName="1.1.1127" >
 
     <uses-sdk
-        android:minSdkVersion="9"
+        android:minSdkVersion="10"
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -52,7 +52,7 @@
             android:value="true" />
 
         <activity
-            android:name="thu.kejiafan.mobinet.SplashActivity"
+            android:name="thu.kejiafan.igps.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,7 +61,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="thu.kejiafan.mobinet.MainActivity"
+            android:name="thu.kejiafan.igps.MainActivity"
             android:screenOrientation="portrait" />
     </application>
 

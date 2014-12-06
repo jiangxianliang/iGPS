@@ -105,13 +105,22 @@
             android:layout_below="@+id/gpsStateString"
             android:layout_marginTop="8dp"
             android:gravity="right"
-            android:text="卫星数:" />
+            android:text="卫星数目:" />
 
+        <TextView
+            android:id="@+id/validGPSlogString"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/satelliteString"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="有效数据:" />
+        
         <TextView
             android:id="@+id/systemTimeString"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/satelliteString"
+            android:layout_below="@+id/validGPSlogString"
             android:layout_marginTop="8dp"
             android:gravity="right"
             android:text="系统时间:" />
@@ -221,10 +230,19 @@
             android:text="GPS开启后有效" />
 
         <TextView
-            android:id="@+id/systemTime"
+            android:id="@+id/validGPSlog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/satellite"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:text="" />
+        
+        <TextView
+            android:id="@+id/systemTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/validGPSlog"
             android:layout_marginTop="8dp"
             android:gravity="right"
             android:text="" />
