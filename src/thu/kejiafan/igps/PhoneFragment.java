@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.Iterator;
 
-import thu.kejiafan.wmap.R;
-import thu.kejiafan.wmap.R.id;
+import thu.kejiafan.igps.R.id;
+
 import android.content.Context;
 import android.location.Criteria;
 import android.location.GpsSatellite;

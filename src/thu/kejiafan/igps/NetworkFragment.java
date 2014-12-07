@@ -9,8 +9,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 
-import thu.kejiafan.wmap.R;
-import thu.kejiafan.wmap.R.id;
+import thu.kejiafan.igps.R.id;
+
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;

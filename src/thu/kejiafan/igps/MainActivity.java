@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-import thu.kejiafan.wmap.R;
-
 import com.baidu.frontia.Frontia;
 import com.baidu.frontia.FrontiaFile;
 import com.baidu.frontia.api.FrontiaStorage;

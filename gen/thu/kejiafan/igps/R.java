@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package thu.kejiafan.wmap;
+package thu.kejiafan.igps;
 
 public final class R {
     public static final class attr {

@@ -1,6 +1,5 @@
 package thu.kejiafan.igps;
 
-import thu.kejiafan.wmap.R;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;

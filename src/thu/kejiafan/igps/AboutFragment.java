@@ -1,7 +1,6 @@
 package thu.kejiafan.igps;
 
-import thu.kejiafan.wmap.R;
-import thu.kejiafan.wmap.R.id;
+import thu.kejiafan.igps.R.id;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

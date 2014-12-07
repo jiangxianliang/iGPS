@@ -5,8 +5,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 
-import thu.kejiafan.wmap.R;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
