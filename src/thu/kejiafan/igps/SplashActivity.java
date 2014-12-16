@@ -43,7 +43,7 @@ public class SplashActivity extends Activity{
 	}
 	
 	private void createFilePath() {
-		String gpxContentName = "  <name><iGPS " + Config.phoneModel + " ("
+		String gpxContentName = "  <name>iGPS " + Config.phoneModel + " ("
 				+ Config.osVersion + " " + Config.providerName + ") "
 				+ Config.IMEI + " " + Config.IMSI + "</name>";
 		String currentString = Config.gpxDateFormat.format(new Date(System.currentTimeMillis()));

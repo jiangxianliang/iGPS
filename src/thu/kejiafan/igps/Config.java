@@ -117,7 +117,6 @@ public class Config {
 	static TextView tvPingLatency;
 	static TextView tvTestReport;
 	static TextView tvPhoneLocation;
-//	static ProgressDialog mDialog;
 	
 	// network state
 	static String wifiState = null;
